@@ -1,5 +1,6 @@
 import streamlit as st 
 from PIL import Image
+import pandas as pd 
 
 #aplikasi stoikiometri  
 page_names = ("APLIKASI PERHITUNGAN STOIKIOMETRI", ['HOME','ABOUT US','CONTACT US'])
