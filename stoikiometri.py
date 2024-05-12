@@ -1,11 +1,10 @@
 import streamlit as st 
 from PIL import Image
 
-
-image2 = Image.open ("images/gambarlogo.png")
-st.image(image2)    
+image3 = Image.open ('images/gambar3.png')
+st.image(image3)   
 with st.sidebar.container():
-    image1 = Image.open ("images/gambar1.png")
+    image1 = Image.open ('images/gambar1.png')
     st.image(image1)
 
 page_names = ("APLIKASI PERHITUNGAN STOIKIOMETRI", ['HOME','ABOUT US','CONTACT US'])
@@ -45,7 +44,7 @@ if (page =='ABOUT US'):
         
     st.write("---")
     st.header("Our crew")
-    image3 = Image.open ("images/gambar3.png")
+    image3 = Image.open ('images/gambar3.png')
     st.image(image3)
     
 if (page =='CONTACT US'):
@@ -330,7 +329,7 @@ if (page =='PENGENCERAN DALAM TITRIMETRI'):
                   4. titrasi kompleksometri 
                   ''')
         
-        image5 = Image.open ("images/gambar5.png")
+        image5 = Image.open ('images/gambar5.png')
         st.image (image5)
         
         st.write ('''1. titrasi asidimetri dan alkalimetri
