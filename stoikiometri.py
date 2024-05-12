@@ -2,10 +2,6 @@ import streamlit as st
 from PIL import Image
 
 #aplikasi stoikiometri  
-with st.sidebar.container():
-    image1 = Image.open ('images/gambar1.png')
-    st.image(image1)
-
 page_names = ("APLIKASI PERHITUNGAN STOIKIOMETRI", ['HOME','ABOUT US','CONTACT US'])
 page = st.sidebar.selectbox ('APLIKASI PERHITUNGAN STOIKIOMETRI',['HOME','PERHITUNGAN STOIKIOMETRI','HUBUNGAN PERSEN B/B DAN B/V','PENGENCERAN DALAM TITRIMETRI','ABOUT US','CONTACT US'])
 
