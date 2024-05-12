@@ -1,11 +1,12 @@
 import streamlit as st 
 from PIL import Image
 
-image1 = Image.open ("images\\gambar2.png")
-st.image(image1)    
+
+image2 = Image.open ("images\\gambar2.png")
+st.image(image2)    
 with st.sidebar.container():
-    image2 = Image.open ("images\\gambar1.png")
-    st.image(image2)
+    image1 = Image.open ("images\\gambar1.png")
+    st.image(image1)
 
 page_names = ("APLIKASI PERHITUNGAN STOIKIOMETRI", ['HOME','ABOUT US','CONTACT US'])
 page = st.sidebar.selectbox ('APLIKASI PERHITUNGAN STOIKIOMETRI',['HOME','PERHITUNGAN STOIKIOMETRI','HUBUNGAN PERSEN B/B DAN B/V','PENGENCERAN DALAM TITRIMETRI','ABOUT US','CONTACT US'])
@@ -44,8 +45,8 @@ if (page =='ABOUT US'):
         
     st.write("---")
     st.header("Our crew")
-    image4 = Image.open ("images\\gambar3.png")
-    st.image(image4)
+    image3 = Image.open ("images\\gambar3.png")
+    st.image(image3)
     
 if (page =='CONTACT US'):
     st.header(":mailbox: Get In Touch With Us!")
@@ -329,8 +330,8 @@ if (page =='PENGENCERAN DALAM TITRIMETRI'):
                   4. titrasi kompleksometri 
                   ''')
         
-        image3 = Image.open ("images\\gambar5.png")
-        st.image (image3)
+        image5 = Image.open ("images\\gambar5.png")
+        st.image (image5)
         
         st.write ('''1. titrasi asidimetri dan alkalimetri
                   titrasi asidimetri-alkalimetri ini disebut juga sebagai titrasi asam-basa
