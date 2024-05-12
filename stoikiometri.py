@@ -1,9 +1,7 @@
 import streamlit as st 
 from PIL import Image
 
-#aplikasi stoikiometri
-image2 = Image.open ('images/gambarlogo.png')
-st.image(image2)   
+#aplikasi stoikiometri  
 with st.sidebar.container():
     image1 = Image.open ('images/gambar1.png')
     st.image(image1)
