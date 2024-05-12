@@ -3,6 +3,10 @@ from PIL import Image
 import pandas as pd 
 
 #aplikasi stoikiometri  
+st.image("https://adivapelajar.files.wordpress.com/2023/05/20230511_130815_0000.png?w=1024")    
+with st.sidebar.container():
+    st.image("https://adivapelajar.files.wordpress.com/2023/05/20230505_153644_0000.png?w=1024", width=250)
+    
 page_names = ("APLIKASI PERHITUNGAN STOIKIOMETRI", ['HOME','ABOUT US','CONTACT US'])
 page = st.sidebar.selectbox ('APLIKASI PERHITUNGAN STOIKIOMETRI',['HOME','PERHITUNGAN STOIKIOMETRI','HUBUNGAN PERSEN B/B DAN B/V','PENGENCERAN DALAM TITRIMETRI','ABOUT US','CONTACT US'])
 
